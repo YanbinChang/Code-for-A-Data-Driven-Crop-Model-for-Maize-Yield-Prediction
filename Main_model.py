@@ -1627,8 +1627,7 @@ result_year_mean = [0 for i in range(40)]
 for i in range(40):
     ob_year_mean[i] = mean(ob_year[i])
     result_year_mean[i] = mean(result_year[i])
-result_year_mean[31] = result_year_mean[31]*1.09
-#result_year_mean[]
+
 Year_name = [i+1981 for i in range(40)]
 plt.figure()  
 plt.figure(figsize=(20, 6))
